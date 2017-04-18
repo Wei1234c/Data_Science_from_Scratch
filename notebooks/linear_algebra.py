@@ -1,10 +1,11 @@
  # -*- coding: iso-8859-15 -*-
 
-from __future__ import division # want 3 / 2 == 1.5
+# from __future__ import division # want 3 / 2 == 1.5
 import re, math, random # regexes, math functions, random numbers
 import matplotlib.pyplot as plt # pyplot
 from collections import defaultdict, Counter
 from functools import partial
+from functools import reduce
 
 # 
 # functions for working with vectors
