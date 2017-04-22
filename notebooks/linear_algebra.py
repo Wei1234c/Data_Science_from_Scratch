@@ -47,7 +47,7 @@ def squared_distance(v, w):
     return sum_of_squares(vector_subtract(v, w))
 
 def distance(v, w):
-   return math.sqrt(squared_distance(v, w))
+	return math.sqrt(squared_distance(v, w))
 
 #
 # functions for working with matrices
