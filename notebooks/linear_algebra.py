@@ -2,7 +2,9 @@
 
 # from __future__ import division # want 3 / 2 == 1.5
 import re, math, random # regexes, math functions, random numbers
+import matplotlib
 import matplotlib.pyplot as plt # pyplot
+
 from collections import defaultdict, Counter
 from functools import partial
 from functools import reduce
